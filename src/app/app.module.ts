@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './pages/login/login.component';
 import { SuggestionComponent } from './pages/suggestion/suggestion.component';
 import { ItemComponent } from './components/item/item.component';
+import { ListSuggestionComponent } from './pages/list-suggestion/list-suggestion.component';
+import { ItemListComponent } from './components/item-list/item-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     SuggestionComponent,
-    ItemComponent
+    ItemComponent,
+    ListSuggestionComponent,
+    ItemListComponent
   ],
   imports: [
     BrowserModule,
